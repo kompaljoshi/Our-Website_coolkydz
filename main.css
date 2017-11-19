@@ -26,7 +26,6 @@ background: orange;
 }
 
 #social-buttons button {
-color: white;
 margin-top: 50px;
 font-weight: bold;
 }
@@ -34,7 +33,14 @@ font-weight: bold;
 .btn-instagram {
   background-color: #e60073;
 }
+.btn-instagram a {
+  color: white;
+}
 
 .btn-pinterest {
   background-color: red;
+}
+
+.btn-pinterest a{
+  color: white;
 }
