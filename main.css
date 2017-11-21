@@ -7,7 +7,19 @@
   background-attachment: fixed;
   padding-bottom: 50px;
 }
+.jumbotron h1 {
+  font: 'Holtwood One SC';
+  font-size: 70px;
+  font-weight: bold;
+}
+.navbar navbar-default{
+  background-color: #333;
+}
 
+.table th {
+  font-size: 20px;
+  font:"Archivo Black";
+}
 #About-us{
   background: purple;
 }
