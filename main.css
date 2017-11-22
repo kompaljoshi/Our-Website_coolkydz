@@ -56,3 +56,14 @@ font-weight: bold;
 .btn-pinterest a{
   color: white;
 }
+
+.navbar {
+  background-color: #111111;
+}
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+.nav-link {
+  color: white;
+}
