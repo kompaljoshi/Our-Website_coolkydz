@@ -29,11 +29,11 @@ background: pink;
 }
 
 #cocktails {
-background: orange;
+background: 	#E0FFFF;
 }
 
-#Social{
-  background: gray;
+#social{
+  background: 	#D3D3D3;
   padding-bottom: 50px;
 }
 
@@ -58,7 +58,7 @@ font-weight: bold;
 }
 
 .navbar {
-  background-color: #111111;
+  background-color: #4d4d4d;
 }
 .navbar-brand {
   color: white;
