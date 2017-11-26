@@ -1,114 +1,113 @@
-  .jumbotron {
-    padding-top: 70px;
-    min-height: 600px;
-    margin-bottom: 0;
-    background-image: url("images/laptop_and_drink.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 50px;
-  }
-  .jumbotron h1 {
-    font: 'Holtwood One SC';
-    font-size: 70px;
-    font-weight: bold;
-  }
-  .navbar{
-    background-color: #333;
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    margin-bottom: 100px;
-
-  }
-
-  .table th {
-    font-size: 20px;
-    font:"Archivo Black";
-  }
-  #About-us{
-    background: white;
-    text-align: center;
-    font-family: georgia;
-    font-size: 20px;
-  }
-
-  #coding {
-  background: white;
-  }
-
-  #cocktails {
-  background: 	white;
-  }
-
-  #social{
-    background: 	 #DCDCDC;
-    padding : 30px;
-  }
-
-  #social-buttons button {
-  margin-top: 50px;
+.jumbotron {
+  padding-top: 70px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url("images/laptop_and_drink.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+}
+.jumbotron h1 {
+  font: 'Holtwood One SC';
+  font-size: 70px;
   font-weight: bold;
-  }
+}
+.navbar{
+  background-color: #4d4d4d;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 100px;
 
-  .btn-instagram {
-    background-color: #e60073;
-  }
-  .btn-instagram a {
-    color: white;
-  }
+}
 
-  .btn-pinterest {
-    background-color: red;
-  }
+#About-us{
+  background: white;
+  text-align: center;
+  font-family: georgia;
+  font-size: 20px;
+}
 
-  .btn-pinterest a{
-    color: white;
-  }
+#coding {
+background: white;
+}
 
-  .navbar {
-    background-color: #4d4d4d;
-  }
-  .navbar-brand {
-    color: white;
-    font-weight: bold;
-  }
-  .nav-link {
-    color: white;
-  }
+#cocktails {
+background: 	white;
+}
 
-  h2{
-    font-size: 50px;
-    font-family:  "Lobster";
-  }
+#social{
+  background:#DCDCDC;
+  padding : 30px;
+}
+
+#social-buttons button {
+margin-top: 50px;
+font-weight: bold;
+}
+
+.btn-instagram {
+  background-color: #e60073;
+}
+.btn-instagram a {
+  color: white;
+}
+
+.btn-pinterest {
+  background-color: red;
+}
+
+.btn-pinterest a{
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+.nav-link {
+  color: white;
+}
+
+h2{
+  font-size: 50px;
+  font-family:  "Lobster";
+}
 h3{
-  font-family: "Righteous";
-  font-size: 30px;
+font-family: "Righteous";
+font-size: 30px;
+}
+
+
+.row coding, .img-circle, .img-responsive img{
+  height: 200px;
+  width: 200px;
+}
+
+.row coding .pull-right {
+  margin: 0 0 10px 20px;
+}
+
+.row coding .pull-left {
+  margin: 0 20px 10px 0;
+}
+
+.row cocktails, img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.row about_us, img{
+  width:300px;
+  height:300px;
+
 }
 
 .container {
   padding-top: 50px;
 }
-
 .row {
   margin: 60px 0;
   padding: 40px 80px;
-}
-
-.row img, .img-circle, .img-responsive {
-  height: 200px;
-  width: 200px;
-}
-
-.row .pull-right {
-  margin: 0 0 10px 20px;
-}
-
-.row .pull-left {
-  margin: 0 20px 10px 0;
-}
-
-.image_cocktail {
-  width:300px;
-  height:300px;
 }
