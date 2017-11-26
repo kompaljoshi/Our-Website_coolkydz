@@ -34,7 +34,7 @@
   }
 
   #coding {
-  background: pink;
+  background: white;
   }
 
   #cocktails {
@@ -84,4 +84,26 @@
 h3{
   font-family: "Righteous";
   font-size: 30px;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.row {
+  margin: 60px 0;
+  padding: 40px 80px;
+}
+
+.row img, .img-circle, .img-responsive {
+  height: 200px;
+  width: 200px;
+}
+
+.row .pull-right {
+  margin: 0 0 10px 20px;
+}
+
+.row .pull-left {
+  margin: 0 20px 10px 0;
 }
