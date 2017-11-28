@@ -1,0 +1,133 @@
+  .jumbotron {
+    padding-top: 70px;
+    min-height: 600px;
+    margin-bottom: 0;
+    background-image: url("images/laptop_and_drink.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+  }
+  .jumbotron h1 {
+    font: 'Holtwood One SC';
+    font-size: 70px;
+    font-weight: bold;
+  }
+  .navbar{
+    background-color: #4d4d4d;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin-bottom: 100px;
+  }
+
+  #About-us{
+    background: white;
+    text-align: center;
+    font-family: georgia;
+    font-size: 20px;
+  }
+
+  #coding {
+  background: white;
+  }
+
+  #cocktails {
+  background: 	white;
+  }
+
+  #social{
+    background: 	 #DCDCDC;
+    padding : 30px;
+  }
+
+
+  #social-icon {
+  height: 50px;
+  width: 50px;
+  }
+
+  .btn-instagram {
+    background-color: #e60073;
+  }
+  .btn-instagram a {
+    color: white;
+  }
+
+  .btn-pinterest {
+    background-color: red;
+  }
+
+  .btn-pinterest a{
+    color: white;
+  }
+
+  .navbar-brand {
+    color: white;
+    font-weight: bold;
+  }
+  .nav-link {
+    color: white;
+  }
+
+h2{
+    font-size: 50px;
+    font-family:  "Lobster";
+  }
+h3{
+  font-family: "Righteous";
+  font-size: 30px;
+}
+
+.row coding, .img-circle, .img-responsive img{
+  height: 200px;
+  width: 200px;
+}
+
+.row coding .pull-right {
+  margin: 0 0 10px 20px;
+}
+
+.row coding .pull-left {
+  margin: 0 20px 10px 0;
+}
+
+.row cocktails, img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.row about_us, img{
+  width:300px;
+  height:300px;
+
+}
+
+.container {
+  padding-top: 40px;
+  padding-bottom: : 40px;
+}
+
+.row {
+  margin: 20px 0;
+  padding: 50px 50px;
+}
+
+#html {
+  background-color: #DCDCDC;
+  color: black;
+}
+
+.portfolio-item {
+  margin-bottom: 50px;
+}
+
+#coding img, .img-circle, .img-responsive {
+  height: 200px;
+  width: 200px;
+}
+
+#css .rounded-circle, .img-fluid{
+  height: 200px;
+  width: 200px;
+}
