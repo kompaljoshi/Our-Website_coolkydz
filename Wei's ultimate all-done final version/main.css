@@ -97,10 +97,17 @@ h3{
   filter: alpha(opacity=50);
 }
 
-.row about_us, img{
+.row .cocktail_illustration, img{
   width:300px;
   height:300px;
+  margin:10px;
+  padding: 10px;
 
+}
+.row .hoverimage img{
+  width:300px;
+  height:300px;
+  margin: 10px;
 }
 
 .container {
@@ -130,4 +137,26 @@ h3{
 #css .rounded-circle, .img-fluid{
   height: 200px;
   width: 200px;
+}
+.jumbotron_rum {
+  padding-top: 50px;
+  min-height: 700px;
+  margin-bottom: 0;
+  background-image: url("images/cocktails_main.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+  opacity: 0.7;
+}
+
+.jumbotron_rum h1{
+  font: 'Holtwood One SC';
+  font-size: 70px;
+  font-weight: bold;
+  color: 	#8B0000;
+
+}
+
+.navbar-brand{
+  a: hover{font-size:150%;}
 }
